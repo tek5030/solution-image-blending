@@ -1,11 +1,11 @@
-#include "lab_2.h"
+#include "solution_image_blending.h"
 #include <iostream>
 
 int main()
 {
   try
   {
-    lab2();
+    runImageBlendingSolution();
   }
   catch (const std::exception& e)
   {

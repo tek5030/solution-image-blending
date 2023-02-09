@@ -1,4 +1,4 @@
-#include "lab_2.h"
+#include "solution_image_blending.h"
 #include "laplace_blending.h"
 #include "linear_blending.h"
 
@@ -7,7 +7,7 @@
 #include "opencv2/highgui.hpp"
 #include <iostream>
 
-void lab2()
+void runImageBlendingSolution()
 {
   // Load the images using cv::imread() and convert to 32-bit floating point images.
   // Using relative filenames such as "../tiger.png" should work.
@@ -45,7 +45,7 @@ void lab2()
   cv::waitKey();
 }
 
-void showResult(const std::string& title, cv::Mat img)
+void showResult(const std::string& title, const cv::Mat& img)
 {
   if (!img.empty())
   {
