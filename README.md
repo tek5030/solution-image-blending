@@ -13,4 +13,4 @@ Please see the [lab guide](https://github.com/tek5030/lab-image-blending/blob/ma
 
    conan install . --install-folder=build --build=missing
    ```
-- When you configure the project in CLion, remember to set `build` as the _Build directory_, as described in [lab 0](https://github.com/tek5030/lab_00/blob/master/cpp/lab-guide/1-open-project-in-clion.md#6-configure-project).
+- When you configure the project in CLion, remember to set `build` as the _Build directory_, as described in [lab_intro](https://github.com/tek5030/lab-intro/blob/master/cpp/lab-guide/1-open-project-in-clion.md#6-configure-project).
