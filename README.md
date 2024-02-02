@@ -4,13 +4,15 @@ This is our proposed solution for the lab ["Image blending with OpenCV"](https:/
 Please see the [lab guide](https://github.com/tek5030/lab-image-blending/blob/master/README.md) for more information.
 
 ## Prerequisites
-- [Ensure Conan is installed on your system](https://tek5030.github.io/tutorial/conan.html), unless you are not on a lab computer.
-- Install project dependencies using conan:
+- OpenCV must be installed on your system. If you are on a lab computer, you are all set.
+
+  If you are on Ubuntu, but not on a lab computer, the following should be sufficient _for this lab_.
 
    ```bash
-   # git clone git@github.com:tek5030/solution-image-blending.git
-   # cd solution-image-blending
-
-   conan install . --install-folder=build --build=missing
+   sudo apt update
+   sudo apt install libopencv-dev
    ```
-- When you configure the project in CLion, remember to set `build` as the _Build directory_, as described in [lab_intro](https://github.com/tek5030/lab-intro/blob/master/cpp/lab-guide/1-open-project-in-clion.md#6-configure-project).
+
+- We refer to [setup_scripts](https://github.com/tek5030/setup_scripts) and [the intro lab] as a general getting started-guide for the C++ labs on Ubuntu 22.04.
+
+[the intro lab]: https://github.com/tek5030/lab-intro/blob/master/cpp/lab-guide/1-open-project-in-clion.md
